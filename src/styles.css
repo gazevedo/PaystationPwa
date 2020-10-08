@@ -1,0 +1,34 @@
+html{ 
+    height: 100%;
+    width: 100%;   
+}
+
+body {   
+    margin: 0; 
+    font-family: "Helvetica Neue", sans-serif;  
+    background-color: lightgray;
+}   
+  
+p{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.imput{
+    width: 100%;
+    font-size: 50px; 
+    text-align: center;
+  }
+ 
+.button{  
+    width: 170px;
+    height: 70px;  
+    background-color: #3284be;
+    font-size: 20px;
+}
+
+.label{
+    font-size: 20px;
+}
+

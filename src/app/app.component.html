@@ -1,0 +1,18 @@
+<div id="container">
+    <img class="img-logo" src="assets/img/imagemCliente.png"> 
+    <div [style.display]="!messageVisible ? 'block' : 'none'">
+        <router-outlet ></router-outlet>
+    </div>
+    <div id="div_buttons">
+        <div id="buttonCancel">
+            <button class="button" mat-raised-button color="primary" (click)="clickCancel()">Cancelar</button>
+        </div>
+        <div id="buttonConfirm" >
+            <button class="button" mat-raised-button color="primary" (click)="clickConfirm()">Confirmar</button>
+        </div>
+    </div>
+    <ngx-ui-loader></ngx-ui-loader>
+    <div id="div-message"> 
+        <p id="lbMessage" [style.display]="messageVisible ? 'block' : 'none'">{{lbmessage}}</p>
+    </div> 
+</div>

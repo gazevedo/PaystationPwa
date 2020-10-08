@@ -1,0 +1,24 @@
+@import '../../../styles.css';
+
+#container {  
+    text-align: center;
+}
+
+#div1{
+    width: 100%;  
+}
+
+#div2{  
+    text-align: right;  
+    padding: 50px; 
+}
+
+.button-operator{ 
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.button_payment{  
+    margin-top: 50px;
+} 

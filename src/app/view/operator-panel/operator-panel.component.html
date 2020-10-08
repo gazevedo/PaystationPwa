@@ -1,0 +1,21 @@
+<p>Painel Operador - Login</p>
+<div id="container">
+    <div id="div-form">
+        <form class="form">
+            <mat-form-field class="full-width">
+                <mat-label class="label">Usuario</mat-label>
+                <input class="imput" matInput [(ngModel)]="user" name="user" (focus)="focusFunction('user')"> 
+            </mat-form-field>
+            <mat-form-field class="full-width">
+                <mat-label class="label">Senha</mat-label>
+                <input class="imput" matInput type="password" [(ngModel)]="password" name="pasword" (focus)="focusFunction('password')">
+            </mat-form-field>
+        </form>
+    </div>
+    <div id="div-keyboard">
+        <div id="div-app-keyboard">
+            <app-keyboard (event)='keyEventListner($event)'></app-keyboard> 
+        </div>
+    </div>
+</div> 
+
